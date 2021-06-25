@@ -1,0 +1,232 @@
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+body {
+  color: #353535;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: #e5e5e5;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #ff7b00;
+  outline: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+.img-resp {
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 767.98px) {
+  .img-resp {
+    width: 100%;
+    height: 150px;
+  }
+}
+
+.btnf {
+  color: #000000;
+  background: #ffffff;
+}
+
+/* .btnf:hover,
+.btnf:active,
+.btnf:focus {
+  color: #ffffff;
+  background: #002fff;
+  box-shadow: none;
+} */
+
+.facebook {
+  margin-right: 3px;
+  margin-top: 50px;
+}
+
+.facebook img {
+  width: 10%;
+  text-align: right;
+}
+
+.facebook span {
+  color: #000000;
+  font-size: 18px;
+  text-align: right;
+}
+
+@media (max-width: 767.98px) {
+  .facebook {
+    text-align: center;
+    margin-bottom: 1;
+  }
+}
+
+.qrcode {
+  margin-left: 0;
+  text-align: left;
+}
+
+@media (max-width: 767.98px) {
+  .qrcode {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1;
+  }
+}
+
+/**********************************/
+/******** Back to Top CSS *********/
+/**********************************/
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #15253b;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 4px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: #ffffff;
+}
+
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+.nav {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .nav .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.nav .navbar {
+  height: 100%;
+  padding: 0;
+}
+
+.nav .dropdown-menu {
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  background: #ffffff;
+  color: #15253b;
+}
+
+.nav .dropdown-menu a.active {
+  color: #ffffff;
+  background: #15253b;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  background-color: #15253b;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #15253b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+  .nav,
+  .nav .navbar {
+    background: #15253b !important;
+  }
+
+  .nav .navbar-brand {
+    display: none;
+  }
+
+  .nav .navbar-dark a.nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .nav .navbar-dark a.nav-link:hover,
+  .nav .navbar-dark a.nav-link.active {
+    color: #15253b;
+    background-color: #ffffff;
+  }
+
+  .nav .navbar-dark button.nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .nav .navbar-dark button.nav-link:hover,
+  .nav .navbar-dark button.nav-link.active {
+    color: #15253b;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 5px 0;
+  }
+
+  .nav,
+  .nav .navbar {
+    background: #15253b !important;
+  }
+
+  .nav a.nav-link {
+    padding: 5px 0;
+  }
+
+  .nav .dropdown-menu {
+    box-shadow: none;
+  }
+}
+
+.avatar {
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
