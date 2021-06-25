@@ -64,7 +64,7 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto text-center">
-                        <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
+                        <a href="/Worklaw/index.php" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
                         <a href="#" class="nav-item nav-link">ติดต่อเรา</a>
                         <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
                         <div class="nav-item dropdown">

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>เว็บทนาย</title>
+    <title>เว็บทนาย สบายใจ</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="eCommerce HTML Template Free Download" name="keywords" />
     <meta content="eCommerce HTML Template Free Download" name="description" />
@@ -12,8 +12,7 @@
     <link href="img/logo.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet" />
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
@@ -24,8 +23,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-    <link href="css/admin_post.css" rel="stylesheet" />
-    <link href="css/question.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/question_type.css" rel="stylesheet" />
 
 </head>
 
@@ -56,7 +55,7 @@
     <!-- Nav Bar Start -->
     <div class="nav box-shadow">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <img src="img/kisspng-lawyer-symbol-criminal-law-justice-lawyer-5ac000a0427870.3452729415225325122723.png"
                     style="width: 40px;" />
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -65,9 +64,19 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto text-center">
-                        <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
-                        <a href="#" class="nav-item nav-link">บทความ</a>
-                        <a href="/question.php" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
+                        <a href="/Worklaw/index.php" class="nav-item nav-link"><i class="fa fa-home"></i>
+                            หน้าหลัก</a>
+                        <a href="#" class="nav-item nav-link">ติดต่อเรา</a>
+                        <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เนื้อหา</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">เนื้อหา1</a>
+                                <a href="#" class="dropdown-item">เนื้อหา2</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">บริการ</a>
+                        <a href="/Worklaw/question.php" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
                     </div>
                     <div class="navbar-nav ml-auto">
 
@@ -229,242 +238,125 @@
                         </div>
                     </div>
                 </div>
+
+            </nav>
         </div>
-        </nav>
     </div>
 
-    <div class="question">
-        <div class="container">
-            <div class="row qheader">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn" data-toggle="modal" data-target="#modal-status">
-                    + เพิ่มคำถามใหม่
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="modal-status" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-body text-center">
-                                <div class="col-12">
-                                    <h5 class="text-center" style="color: black;">ตั้งกระทู้แบบไหน ?</h5>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <button type="button" class="btn" data-dismiss="modal"
-                                            style=" background-color: #b6622d;color: #ffffff;width: 100%;">สาธารณะ
-                                        </button>
-                                        <p>สามารถให้ทุกคนเข้ามามีส่วนร่วมในการตอบกระทู้ของคุณได้และทุกคนสามารถเห็นกระทู้ของคุณได้
-                                        </p>
+    <div class="q_type">
+        <div class="row">
+            <div class="col-lg-8 col-md-6 text-left">
+                <div class="q_type_header" style="padding-top: 1px;">
+                    <h5 style="font-size: 20px;color: #ffffff;">เพิ่มคำถามใหม่</h5>
+                </div>
+                <div class="q_type_body text-center">
+                    <form action="#" class="text-left">
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="email">ห้องสนทนา <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>กรุณาเลือกห้องสนทนา</option>
+                                    <option value="1">ถาม - ตอบ ปัญหากฎหมาย</option>
+                                    <option value="2">ห้องคดีแพ่งเกี่ยวกับมรดก</option>
+                                    <option value="3">ห้องคดีแพ่งเกี่ยวกับที่ดิน</option>
+                                    <option value="4">คดีอาญา</option>
+                                    <option value="5">คดีแพ่งทั่วไป</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-3">
+                                <label for="pwd">หัวข้อกระทู้ <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" placeholder="" id="pwd" />
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-3">
+                                <label for="pwd">ข้อความ <span>*</span> :</label>
+                            </div>
+                        </div>
+                        <div class="box-text mb-5">
+                            <div class="box-header text-left">
+                                <div class="row ml-3">
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left">B </h5>
                                     </div>
-                                    <div class="col-md-6">
-                                        <button type="button" class="btn" data-dismiss="modal"
-                                            style=" background-color: #b6622d;color: #ffffff;width: 100%">ส่วนตัว
-                                        </button>
-                                        <p>สามารถซ่อนกระทู้และปรึกษาทนายตัวต่อตัวได้ผ่านทางการตั้งกระทู้</p>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> / </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> U </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <img src="img/link.png" style="width: 40px;height: auto; padding: 5px;" />
+                                    </div>
+                                    <div class="col-ms-1">
+                                        <img src="img/picture.png" style="width: 40px;padding: 5px;" />
                                     </div>
                                 </div>
-                                <button type="button" class="btn" data-dismiss="modal"
-                                    style=" background-color: red;width: 30%;color: #ffffff;">ยกเลิก
-                                </button>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row qtitle">
-                <div class="col-md-5">
-                    <p>ห้องสนทนา</p>
-                </div>
-                <div class="col-md-2">
-                    <p>กระทู้</p>
-                </div>
-                <div class="col-md-2">
-                    <p>ตอบ</p>
-                </div>
-                <div class="col-md-3">
-                    <p>กระทู้ล่าสุด</p>
-                </div>
-            </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ถาม - ตอบ ปัญหากฎหมาย</p>
+                        <div class="row mb-5">
+                            <div class="col-md-3">
+                                <label for="pwd">ผู้ตั้งกระทู้ <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" placeholder="" id="pwd" />
                             </div>
                         </div>
+                    </form>
+                    <div class="text-center mt-3 ">
+                        <button type="button" class="btn btn-success mr-5" style="width: 15%;border-radius: 18px;">ตกลง</button>
+                        <button type="button" class="btn btn-danger" style="width: 15%;border-radius: 18px;">ยกเลิก</button>
                     </div>
                 </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-3" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
+
             </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="col">
+                    <div class="row box-shadow page">
+                        <div class="w3-bar topic text-center">
+                            <h5>ฝากติดตามเพจ</h5>
                         </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ห้องคดีแพ่งเกี่ยวกับมรดก</p>
-                            </div>
+                        <iframe class="page-facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                    <div class="row box-shadow page">
+                        <div class="w3-bar topic text-center mb-3">
+                            <h5>ลิ้งค์ด้วยกฎหมาย</h5>
+                        </div>
+                        <div class="ml-5 mr-5" style="width: 100%;">
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สำนักงานศาลยุติธรรม</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สภาทนายความ</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สำนักงานกฤษฎีกา</h4>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-3" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
-            </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ห้องคดีแพ่งเกี่ยวกับที่ดิน</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-3" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
-            </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ห้องคดีอาญา</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-3" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
-            </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ห้องแพ่งทั่วไป</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-3" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
-            </div>
-        </div>
-        <div class="container mt-3">
-            <div class="row qheader">
-                <h5>บล็อกกระทู้</h5>
-            </div>
-            <div class="row qtitle ">
-                <div class="col-md-5">
-                    <p>กระทู้</p>
-                </div>
-                <div class="col-md-2">
-                    <p>ผู้ตั้งกระทู้</p>
-                </div>
-                <div class="col-md-2">
-                    <p>ตอบ</p>
-                </div>
-                <div class="col-md-3">
-                    <p>การเข้าชม</p>
-                </div>
-            </div>
-            <div class="row qbody">
-                <div class="col-md-5">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img class="card-img-top" src="img/photo-1596079890744-c1a0462d0975.jpg"
-                                alt="Card image cap">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <div class="row">
-                                <p>ฟ้องอย่าสามีเยอรมัน</p><br>
-                                <p>ตอบกระทู้เมื่อ 2018-03-07 10:26<br>โดย บุญมี คงมั่น</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>คนที่ถูกหลอก</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>1</p>
-                </div>
-                <div class="col-md-2" style="padding-top: 2.5%;padding-bottom: 2.5%;">
-                    <p>20</p>
-                </div>
-                <div class="col-md-1 text-center">
-                    <div class="col-ms-1 btt">
-                        <p style="color:#40B62D;" onclick="">ปักหมุด</p>
-                    </div>
-                    <div class="col-ms-1">
-                        <p style="color:#FF0000;" b onclick="">ลบ</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row qfooter">
-                <div class="col-ms-1">
-                    <img src="img/photo-1596079890744-c1a0462d0975.jpg" alt="">
-                </div>
-                <div class="col-ms-1">
-                    <p>กระทู้ทั่วไป</p>
-                </div>
-                <div class="col-ms-1">
-                    <img src="img/photo-1596079890744-c1a0462d0975.jpg" alt="">
-                </div>
-                <div class="col-ms-1">
-                    <p>กระทู้ทั่วไป</p>
+
                 </div>
             </div>
         </div>

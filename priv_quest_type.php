@@ -12,8 +12,7 @@
     <link href="img/logo.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet" />
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
@@ -24,7 +23,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-    <link href="css/admin_create.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/question_type.css" rel="stylesheet" />
+
 </head>
 
 <body class="container">
@@ -55,17 +56,26 @@
     <div class="nav box-shadow">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <img src="img/kisspng-lawyer-symbol-criminal-law-justice-lawyer-5ac000a0427870.3452729415225325122723.png"
-                    style="width: 40px;" />
+                <img src="img/kisspng-lawyer-symbol-criminal-law-justice-lawyer-5ac000a0427870.3452729415225325122723.png" style="width: 40px;" />
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto text-center">
-                        <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
-                        <a href="#" class="nav-item nav-link active">บทความ</a>
-                        <a href="question.php" class="nav-item nav-link">ปรึกษากฎหมาย</a>
+                        <a href="/Worklaw/index.php" class="nav-item nav-link"><i class="fa fa-home"></i>
+                            หน้าหลัก</a>
+                        <a href="#" class="nav-item nav-link">ติดต่อเรา</a>
+                        <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เนื้อหา</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">เนื้อหา1</a>
+                                <a href="#" class="dropdown-item">เนื้อหา2</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">บริการ</a>
+                        <a href="/Worklaw/question.php" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
                     </div>
                     <div class="navbar-nav ml-auto">
 
@@ -90,8 +100,7 @@
                                                     <label for="email">Username : </label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="email" placeholder="Enter email"
-                                                        id="email" />
+                                                    <input class="form-control" type="email" placeholder="Enter email" id="email" />
                                                 </div>
                                             </div>
                                             <div class="row mb-1">
@@ -99,26 +108,21 @@
                                                     <label for="pwd">Password : </label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input class="form-control" type="password"
-                                                        placeholder="Enter password" id="pwd" />
+                                                    <input class="form-control" type="password" placeholder="Enter password" id="pwd" />
                                                 </div>
                                                 <div class="col-ms-1">
-                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button"
-                                                        id="eye"></i>
+                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button" id="eye"></i>
                                                 </div>
                                             </div>
                                             <p class="text-right mr-10">
                                                 <a href="/question.html">ลืมรหัสผ่านใช่ไหม ?</a>
                                             </p>
                                             <div class="col-mg-12 text-center">
-                                                <button type="submit" class="btn"
-                                                    style="border-radius: 18px;background-color: #B6622D;color: #ffffff;">เข้าสู่ระบบ</button>
+                                                <button type="submit" class="btn" style="border-radius: 18px;background-color: #B6622D;color: #ffffff;">เข้าสู่ระบบ</button>
                                             </div>
                                             <hr />
                                             <div class="col-mg-12 text-center">
-                                                <button type="button" class="btn"
-                                                    style="border-radius: 18px;background-color: #D9A774;color: #000;"
-                                                    data-toggle="modal" data-target="#register">สมัครสมาชิก
+                                                <button type="button" class="btn" style="border-radius: 18px;background-color: #D9A774;color: #000;" data-toggle="modal" data-target="#register">สมัครสมาชิก
                                                 </button>
                                             </div>
                                         </form>
@@ -141,8 +145,7 @@
                                                     <label for="username">Username : </label>
                                                 </div>
                                                 <div class="col-md-7">
-                                                    <input class="form-control" type="username"
-                                                        placeholder="Enter username" id="username" />
+                                                    <input class="form-control" type="username" placeholder="Enter username" id="username" />
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -150,12 +153,10 @@
                                                     <label for="pwd">Password : </label>
                                                 </div>
                                                 <div class="col-md-7 col-ms-11">
-                                                    <input class="form-control" type="password"
-                                                        placeholder="Enter password" id="pwd" />
+                                                    <input class="form-control" type="password" placeholder="Enter password" id="pwd" />
                                                 </div>
                                                 <div class="col-ms-1">
-                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button"
-                                                        id="eye"></i>
+                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button" id="eye"></i>
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -163,12 +164,10 @@
                                                     <label for="cpwd">Confirm Password : </label>
                                                 </div>
                                                 <div class="col-md-7 col-ms-11">
-                                                    <input class="form-control" type="password"
-                                                        placeholder="Enter password" id="cpwd" />
+                                                    <input class="form-control" type="password" placeholder="Enter password" id="cpwd" />
                                                 </div>
                                                 <div class="col-ms-1">
-                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button"
-                                                        id="eye"></i>
+                                                    <i class="fa fa-eye mt-3 ml-0" aria-hidden="true" type="button" id="eye"></i>
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -176,8 +175,7 @@
                                                     <label for="telephone">* Tel : </label>
                                                 </div>
                                                 <div class="col-md-7 col-ms-11">
-                                                    <input class="form-control" type="text"
-                                                        placeholder="Enter telephone number" id="telephone" />
+                                                    <input class="form-control" type="text" placeholder="Enter telephone number" id="telephone" />
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -185,8 +183,7 @@
                                                     <label for="email">* Email : </label>
                                                 </div>
                                                 <div class="col-md-7 col-ms-12">
-                                                    <input class="form-control" type="email" placeholder="Enter email"
-                                                        id="email" />
+                                                    <input class="form-control" type="email" placeholder="Enter email" id="email" />
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -194,8 +191,7 @@
                                                     <label for="line">Line ID : </label>
                                                 </div>
                                                 <div class="col-md-7">
-                                                    <input class="form-control" type="text" placeholder="Enter line"
-                                                        id="line" />
+                                                    <input class="form-control" type="text" placeholder="Enter line" id="line" />
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
@@ -203,8 +199,7 @@
                                                     <label for="facebook">Facebookl : </label>
                                                 </div>
                                                 <div class="col-md-7 col-ms-12">
-                                                    <input class="form-control" type="text" placeholder="Enter facebook"
-                                                        id="facebook" />
+                                                    <input class="form-control" type="text" placeholder="Enter facebook" id="facebook" />
                                                 </div>
                                             </div>
                                             <div class="form-check">
@@ -215,10 +210,8 @@
                                                 </label>
                                             </div>
                                             <div class="col-mg-12 text-center">
-                                                <button type="submit" class="btn btn-success"
-                                                    style="border-radius: 18px;color: #ffffff;">ตกลง</button>
-                                                <button type="button" class="btn btn-danger closs"
-                                                    style="border-radius: 18px;color: #ffffff;">ยกเลิก</button>
+                                                <button type="submit" class="btn btn-success" style="border-radius: 18px;color: #ffffff;">ตกลง</button>
+                                                <button type="button" class="btn btn-danger closs" style="border-radius: 18px;color: #ffffff;">ยกเลิก</button>
                                             </div>
                                         </form>
                                     </div>
@@ -227,64 +220,132 @@
                         </div>
                     </div>
                 </div>
+            </nav>
         </div>
-        </nav>
     </div>
 
-    <div class="admin_c">
+    <div class="q_type">
         <div class="row">
             <div class="col-lg-8 col-md-6 text-left">
-                <div class="admin_header" style="padding-top: 1px;">
-                    <h5 style="font-size: 16px;color: #ffffff;">หัวข้อ <span style="color: #FFB800;">[แก้ไข]</span><br>
-                        <p style="color: #000;">วัน/เดือน/ปี |0 จำนวนผู้เช้าชม|</p>
-                    </h5>
+                <div class="q_type_header" style="padding-top: 1px;">
+                    <h5 style="font-size: 20px;color: #ffffff;">เพิ่มคำถามใหม่</h5>
                 </div>
-                <div class="admin_body text-center">
-                    <img src="img/instagram-3814094_1280.png"
-                        style="width: 400px;padding-top: 20px;height: 300px;padding-bottom: 30px;" />
-                    <div class="box-text">
-                        <div class="box-header text-left">
-                            <div class="row ml-3">
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left">B </h5>
-                                </div>
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left"> / </h5>
-                                </div>
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left"> U </h5>
-                                </div>
-                                <div class="col-ms-1  mr-3">
-                                    <img src="img/link.png" style="width: 40px;height: auto; padding: 5px;" />
-                                </div>
-                                <div class="col-ms-1">
-                                    <img src="img/picture.png" style="width: 40px;padding: 5px;" />
+                <div class="q_type_body text-center">
+                    <form action="#" class="text-left">
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="email">ห้องสนทนา <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option selected>กรุณาเลือกห้องสนทนา</option>
+                                    <option value="1">ถาม - ตอบ ปัญหากฎหมาย</option>
+                                    <option value="2">ห้องคดีแพ่งเกี่ยวกับมรดก</option>
+                                    <option value="3">ห้องคดีแพ่งเกี่ยวกับที่ดิน</option>
+                                    <option value="4">คดีอาญา</option>
+                                    <option value="5">คดีแพ่งทั่วไป</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-3">
+                                <label for="pwd">หัวข้อกระทู้ <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" placeholder="" id="pwd" />
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-3">
+                                <label for="pwd">ข้อความ <span>*</span> :</label>
+                            </div>
+                        </div>
+                        <div class="box-text mb-5">
+                            <div class="box-header text-left">
+                                <div class="row ml-3">
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left">B </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> / </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> U </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <img src="img/link.png" style="width: 40px;height: auto; padding: 5px;" />
+                                    </div>
+                                    <div class="col-ms-1">
+                                        <img src="img/picture.png" style="width: 40px;padding: 5px;" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="text-right mt-3">
-                        <button type="button" class="btn btn-success mr-5"
-                            style="width: 15%;border-radius: 18px;">ตกลง</button>
-                        <button type="button" class="btn btn-danger"
-                            style="width: 15%;border-radius: 18px;">ยกเลิก</button>
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <label for="name">ผู้ตั้งกระทู้ <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" placeholder="" id="name" />
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-3 col-ms-12">
+                                <label for="email">Email <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-8 col-ms-12">
+                                <input class="form-control" type="email" placeholder="" id="email" />
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3 ">
+                        <button type="button" class="btn btn-success mr-5" style="width: 15%;border-radius: 18px;">ตกลง</button>
+                        <button type="button" class="btn btn-danger" style="width: 15%;border-radius: 18px;">ยกเลิก</button>
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="admin_header">
-                    <h5>เลือกหมวดหมู่</h5>
-                </div>
-                <div class="admin_body">
-                    <select class="custom-select" id="inputGroupSelect01">
-                        <option selected>หมวดหมู่น้อย</option>
-                        <option value="1">บทความ</option>
-                        <option value="2">ข่าวสาร</option>
-                        <option value="3">เกร็ดความรู้</option>
-                        <option value="4">ผลงาน</option>
-                    </select>
+            <div class="col-lg-4 col-md-6">
+                <div class="col">
+                    <div class="row box-shadow page">
+                        <div class="w3-bar topic text-center">
+                            <h5>ฝากติดตามเพจ</h5>
+                        </div>
+                        <iframe class="page-facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                    <div class="row box-shadow page">
+                        <div class="w3-bar topic text-center mb-3">
+                            <h5>ลิ้งค์ด้วยกฎหมาย</h5>
+                        </div>
+                        <div class="ml-5 mr-5" style="width: 100%;">
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สำนักงานศาลยุติธรรม</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/1-840x840.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สภาทนายความ</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="media media-law box-shadow">
+                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png" alt="Card image cap">
+                                    <div class="media-body text-left">
+                                        <h4 class="mt-0 pl-3">สำนักงานกฤษฎีกา</h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

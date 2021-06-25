@@ -21,6 +21,8 @@
 .topic {
   background-color: #b6622d;
   color: #ffffff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .btn-link {
