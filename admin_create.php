@@ -65,7 +65,7 @@
                     <div class="navbar-nav mr-auto text-center">
                         <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
                         <a href="#" class="nav-item nav-link active">บทความ</a>
-                        <a href="/question.html" class="nav-item nav-link">ปรึกษากฎหมาย</a>
+                        <a href="question.php" class="nav-item nav-link">ปรึกษากฎหมาย</a>
                     </div>
                     <div class="navbar-nav ml-auto">
 
