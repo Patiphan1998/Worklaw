@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <a href="#" class="nav-item nav-link">บริการ</a>
-                        <a href="/question.html" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
+                        <a href="/question.php" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
                     </div>
                     <div class="navbar-nav ml-auto">
 
