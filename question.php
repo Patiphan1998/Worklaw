@@ -464,7 +464,7 @@
                     <img src="img/photo-1596079890744-c1a0462d0975.jpg" alt="">
                 </div>
                 <div class="col-ms-1">
-                    <p>กระทู้ทั่วไป</p>
+                    <p>ปักหมุด</p>
                 </div>
             </div>
         </div>

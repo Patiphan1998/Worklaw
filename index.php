@@ -70,8 +70,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เนื้อหา</a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">เนื้อหา1</a>
-                                <a href="#" class="dropdown-item">เนื้อหา2</a>
+                                <a href="/Worklaw/content.php" class="dropdown-item">เนื้อหา1</a>
+                                <a href="/Worklaw/content.php" class="dropdown-item">เนื้อหา2</a>
                             </div>
                         </div>
                         <a href="#" class="nav-item nav-link">บริการ</a>
