@@ -229,9 +229,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-6 text-left ">
                 <div class="read_header box-shadow" style="padding-top: 1px;">
-                    <h5 style="font-size: 16px;color: #ffffff;">สินสมรส , สินค้าส่วนตัว<br>
-                        <p style="color: #000;">Last updated: 2018 - 09 - 13 | 8568 จำนวนผู้เข้าชม</p>
-                    </h5>
+                    <h4 style="color: #ffffff;">สินสมรส , สินค้าส่วนตัว</h4><p style="color: #000;">Last updated: 2018 - 09 - 13 | 8568 จำนวนผู้เข้าชม</p>
                 </div>
                 <div class="read_body text-left box-shadow">
                     <div class="col-lg-12 col-md-12 text-center">
@@ -276,7 +274,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6">
                 <div class="col-lg-12">
                     <div class="row box-shadow page">
@@ -320,7 +317,45 @@
                 </div>
             </div>
         </div>
+        <br>
+        <hr class="ryzen" />
+
+        <h2>เกี่ยวข้อง</h2>
+        <div class="row ml-3 mr-3">
+            <div class="column">
+                <div class="card">
+                    <img src="img/photo-1503428593586-e225b39bddfe.jpg" alt="Jane" style="width:100%">
+                    <div class="container">
+                        <h3>ทรัพย์สินของบริษัทและกรรมการ</h3>
+                        <h5 class="title">Feb . 29 . 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/photo-1596079890744-c1a0462d0975.jpg" alt="Mike" style="width:100%">
+                    <div class="container">
+                        <h3>การฟ้องหย่า...ชาวต่างชาติ</h3>
+                        <h5 class="title">Feb . 29 . 2021</h5>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img/photo-1591994843349-f415893b3a6b.jpg" alt="John" style="width:100%">
+                    <div class="container">
+                        <h3>คดีเช่าซื้อรถยนต์</h3>
+                        <h5 class="title">Feb . 29 . 2021</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
