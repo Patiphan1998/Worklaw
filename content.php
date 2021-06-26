@@ -63,12 +63,12 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto text-center">
-                        <a href="/Worklaw/index.php" class="nav-item nav-link active"><i class="fa fa-home"></i>
+                        <a href="/Worklaw/index.php" class="nav-item nav-link"><i class="fa fa-home"></i>
                             หน้าหลัก</a>
                         <a href="#" class="nav-item nav-link">ติดต่อเรา</a>
                         <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เนื้อหา</a>
+                            <a href="#" class="nav-link dropdown-toggle  active" data-toggle="dropdown">เนื้อหา</a>
                             <div class="dropdown-menu">
                                 <a href="#" class="dropdown-item">เนื้อหา1</a>
                                 <a href="#" class="dropdown-item">เนื้อหา2</a>
@@ -629,10 +629,7 @@
                         <div class="w3-bar topic text-center">
                             <h5>ฝากติดตามเพจ</h5>
                         </div>
-                        <iframe class="page-facebook"
-                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247"
-                            scrolling="no" frameborder="0" allowfullscreen="true"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe class="page-facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
                     <div class="row box-shadow page">
                         <div class="w3-bar topic text-center mb-3">
@@ -641,9 +638,7 @@
                         <div class="ml-3 mr-3" style="width: 100%;">
                             <a href="#">
                                 <div class="media media-law box-shadow">
-                                    <img class="card-img-top"
-                                        src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png"
-                                        alt="Card image cap">
+                                    <img class="card-img-top" src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png" alt="Card image cap">
                                     <div class="media-body text-left">
                                         <h4 class="mt-0 pl-3">สำนักงานศาลยุติธรรม</h4>
                                     </div>
@@ -659,8 +654,7 @@
                             </a>
                             <a href="#">
                                 <div class="media media-law box-shadow">
-                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png"
-                                        alt="Card image cap">
+                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png" alt="Card image cap">
                                     <div class="media-body text-left">
                                         <h4 class="mt-0 pl-3">สำนักงานกฤษฎีกา</h4>
                                     </div>
@@ -673,28 +667,6 @@
             </div>
         </div>
     </div>
-
-    <div class="cont box-shadow">
-        <img src="img/photo-1503428593586-e225b39bddfe.jpg" alt="Nature" style="width:100%;">
-        <div class="text-block">
-            <h2>พุดคุย - สอบถาม กับ <br> ทนายสบายใจ พร้อมให้คำปรึกษา</h2>
-            <button class="btn btn-link2 btn-md btn-block box-shadow nav-item nav-link">
-                คลิก
-            </button>
-        </div>
-
-    </div>
-
-    <div class="footer box-shadow">
-        <h3>66/211 ถนนเฉลิมพระเกียรติรัชกาลที่ 9 ซอย 87
-            <br>แขวงประเวศ เขตประเวศ
-            <br>กรุงเทพมหานคร ไปรษรีย์ 10250
-            <br>ประเทศไทย
-            <br>โทร : 062-1935789 หรือ 061-3691159
-            <br>อีเมล: ud.leawyerbkk@gmail.com<br>
-        </h3>
-    </div>
-
 
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>

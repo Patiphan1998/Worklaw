@@ -23,10 +23,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-    <link href="css/admin_create.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/answer.css" rel="stylesheet" />
+
 </head>
 
 <body class="container">
+
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -60,9 +63,19 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto text-center">
-                        <a href="index.html" class="nav-item nav-link"><i class="fa fa-home"></i> หน้าหลัก</a>
-                        <a href="#" class="nav-item nav-link active">บทความ</a>
-                        <a href="question.php" class="nav-item nav-link">ปรึกษากฎหมาย</a>
+                        <a href="/Worklaw/index.php" class="nav-item nav-link"><i class="fa fa-home"></i>
+                            หน้าหลัก</a>
+                        <a href="#" class="nav-item nav-link">ติดต่อเรา</a>
+                        <a href="#" class="nav-item nav-link">เกี่ยวกับ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เนื้อหา</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">เนื้อหา1</a>
+                                <a href="#" class="dropdown-item">เนื้อหา2</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">บริการ</a>
+                        <a href="/Worklaw/question.php" class="nav-item nav-link active">ปรึกษากฎหมาย</a>
                     </div>
                     <div class="navbar-nav ml-auto">
 
@@ -207,64 +220,122 @@
                         </div>
                     </div>
                 </div>
+
+            </nav>
         </div>
-        </nav>
     </div>
 
-    <div class="admin_c">
+    <div class="answer">
         <div class="row">
-            <div class="col-lg-8 col-md-6 text-left ">
-                <div class="admin_header box-shadow" style="padding-top: 1px;">
-                    <h5 style="font-size: 16px;color: #ffffff;">หัวข้อ <span style="color: #FFB800;">[แก้ไข]</span><br>
-                        <p style="color: #000;">วัน/เดือน/ปี |0 จำนวนผู้เช้าชม|</p>
-                    </h5>
+            <div class="col-lg-12 col-md-6 text-left">
+                <div class="answer_header" style="padding-top: 1px;">
+                    <h5 style="font-size: 20px;color: #ffffff;">กระดานสนทนา</h5>
                 </div>
-                <div class="admin_body text-center box-shadow">
-                    <img src="img/instagram-3814094_1280.png" style="width: 400px;padding-top: 20px;height: 300px;padding-bottom: 30px;" />
-                    <div class="box-text">
-                        <div class="box-header text-left">
-                            <div class="row ml-3">
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left">B </h5>
+                <div class="answer_body text-left">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img class="mr-3" src="img/photo-1596079890744-c1a0462d0975.jpg" alt="image" style="background-color: #000;width:90%">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="mt-0">Media heading</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <div class="col-md-2 text-right">
+                            <button type="button" class="btn " data-toggle="modal" data-target="#delete">
+                                <span>แจ้งลบ</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="answer_body text-left">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img class="mr-3" src="img/photo-1596079890744-c1a0462d0975.jpg" alt="image" style="background-color: #000;width:90%">
+                        </div>
+                        <div class="col-md-8">
+                            <h5 class="mt-0">Media heading</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                        <div class="col-md-2 text-right">
+                            <button type="button" class="btn " data-toggle="modal" data-target="#delete">
+                                <span>แจ้งลบ</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="delete" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <div class="col-md-12">
+                                    <h5 style="color: black;">แจ้งลบความคิดเห็น</h5>
                                 </div>
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left"> / </h5>
-                                </div>
-                                <div class="col-ms-1  mr-3">
-                                    <h5 class="text-left"> U </h5>
-                                </div>
-                                <div class="col-ms-1  mr-3">
-                                    <img src="img/link.png" style="width: 40px;height: auto; padding: 5px;" />
-                                </div>
-                                <div class="col-ms-1">
-                                    <img src="img/picture.png" style="width: 40px;padding: 5px;" />
+                                <br>
+                                <form action="#">
+                                    <div class="input-group mb-3">
+                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                    </div>
+                                    <div class="row mb-5">
+                                        <div class="col-md-3">
+                                            <label for="pwd">ชื่อผู้ใช้ <span>*</span> : </label>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <input class="form-control" type="name" style="width: 100%;bottom: 5px;" id="name" />
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-success mr-3" style="width: 20%;border-radius: 18px;color:#ffffff">ตกลง</button>
+                                    <button type="button" class="btn btn-danger" style="width: 20%;border-radius: 18px;color:#ffffff">ยกเลิก</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="answer">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 text-left">
+                <div class="answer_header" style="padding-top: 1px;">
+                    <h5 style="font-size: 20px;color: #ffffff;">กระดานสนทนา</h5>
+                </div>
+                <div class="answer_body text-center">
+                    <form action="#" class="text-left">
+                        <div class="box-text mb-5">
+                            <div class="box-header text-left">
+                                <div class="row ml-3">
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left">B </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> / </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <h5 class="text-left"> U </h5>
+                                    </div>
+                                    <div class="col-ms-1  mr-3">
+                                        <img src="img/link.png" style="width: 40px;height: auto; padding: 5px;" />
+                                    </div>
+                                    <div class="col-ms-1">
+                                        <img src="img/picture.png" style="width: 40px;padding: 5px;" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="box-body">
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        <div class="row mb-5">
+                            <div class="col-md-2">
+                                <label for="pwd">ผู้ตั้งกระทู้ <span>*</span> : </label>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" placeholder="" id="pwd" />
+                            </div>
                         </div>
+                    </form>
+                    <div class="text-right mt-3 ">
+                        <button type="button" class="btn btn-success " style="width: 15%;border-radius: 18px;">ตอบ</button>
                     </div>
-                    <div class="text-right mt-3">
-                        <button type="button" class="btn btn-success mr-3" style="width: 15%;border-radius: 18px;">ตกลง</button>
-                        <button type="button" class="btn btn-danger" style="width: 15%;border-radius: 18px;">ยกเลิก</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 text-center">
-                <div class="admin_header box-shadow">
-                    <h5>เลือกหมวดหมู่</h5>
-                </div>
-                <div class="admin_body box-shadow">
-                    <select class="custom-select" id="inputGroupSelect01">
-                        <option selected>หมวดหมู่น้อย</option>
-                        <option value="1">บทความ</option>
-                        <option value="2">ข่าวสาร</option>
-                        <option value="3">เกร็ดความรู้</option>
-                        <option value="4">ผลงาน</option>
-                    </select>
                 </div>
             </div>
         </div>

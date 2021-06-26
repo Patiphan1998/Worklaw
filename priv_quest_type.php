@@ -307,7 +307,7 @@
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="col">
+                <div class="col-lg-12">
                     <div class="row box-shadow page">
                         <div class="w3-bar topic text-center">
                             <h5>ฝากติดตามเพจ</h5>
@@ -318,7 +318,7 @@
                         <div class="w3-bar topic text-center mb-3">
                             <h5>ลิ้งค์ด้วยกฎหมาย</h5>
                         </div>
-                        <div class="ml-5 mr-5" style="width: 100%;">
+                        <div class="ml-3 mr-3" style="width: 100%;">
                             <a href="#">
                                 <div class="media media-law box-shadow">
                                     <img class="card-img-top" src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png" alt="Card image cap">

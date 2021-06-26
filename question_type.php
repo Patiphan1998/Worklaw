@@ -12,7 +12,8 @@
     <link href="img/logo.png" rel="icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+        rel="stylesheet" />
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
@@ -55,7 +56,7 @@
     <!-- Nav Bar Start -->
     <div class="nav box-shadow">
         <div class="container-fluid">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <img src="img/kisspng-lawyer-symbol-criminal-law-justice-lawyer-5ac000a0427870.3452729415225325122723.png"
                     style="width: 40px;" />
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -257,7 +258,7 @@
                             </div>
                             <div class="col-md-8">
                                 <select class="custom-select" id="inputGroupSelect01">
-                                <option selected>กรุณาเลือกห้องสนทนา</option>
+                                    <option selected>กรุณาเลือกห้องสนทนา</option>
                                     <option value="1">ถาม - ตอบ ปัญหากฎหมาย</option>
                                     <option value="2">ห้องคดีแพ่งเกี่ยวกับมรดก</option>
                                     <option value="3">ห้องคดีแพ่งเกี่ยวกับที่ดิน</option>
@@ -310,8 +311,10 @@
                         </div>
                     </form>
                     <div class="text-center mt-3 ">
-                        <button type="button" class="btn btn-success mr-5" style="width: 15%;border-radius: 18px;">ตกลง</button>
-                        <button type="button" class="btn btn-danger" style="width: 15%;border-radius: 18px;">ยกเลิก</button>
+                        <button type="button" class="btn btn-success mr-5"
+                            style="width: 15%;border-radius: 18px;">ตกลง</button>
+                        <button type="button" class="btn btn-danger"
+                            style="width: 15%;border-radius: 18px;">ยกเลิก</button>
                     </div>
                 </div>
 
@@ -323,7 +326,10 @@
                         <div class="w3-bar topic text-center">
                             <h5>ฝากติดตามเพจ</h5>
                         </div>
-                        <iframe class="page-facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe class="page-facebook"
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2F%25E0%25B8%25A3%25E0%25B8%25A7%25E0%25B8%2587%25E0%25B8%2582%25E0%25B9%2589%25E0%25B8%25B2%25E0%25B8%25A7%25E0%25B8%25AA%25E0%25B8%25B5%25E0%25B8%25A3%25E0%25B8%25B8%25E0%25B9%2588%25E0%25B8%2587-Rice-Rainbow-100141648685185&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1048947702217247"
+                            scrolling="no" frameborder="0" allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
                     <div class="row box-shadow page">
                         <div class="w3-bar topic text-center mb-3">
@@ -332,7 +338,9 @@
                         <div class="ml-5 mr-5" style="width: 100%;">
                             <a href="#">
                                 <div class="media media-law box-shadow">
-                                    <img class="card-img-top" src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png" alt="Card image cap">
+                                    <img class="card-img-top"
+                                        src="img/20200513d41d8cd98f00b204e9800998ecf8427e094310.png"
+                                        alt="Card image cap">
                                     <div class="media-body text-left">
                                         <h4 class="mt-0 pl-3">สำนักงานศาลยุติธรรม</h4>
                                     </div>
@@ -348,7 +356,8 @@
                             </a>
                             <a href="#">
                                 <div class="media media-law box-shadow">
-                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png" alt="Card image cap">
+                                    <img class="card-img-top" src="img/img_d009c29f72cd6103cc744037e08933fc.png"
+                                        alt="Card image cap">
                                     <div class="media-body text-left">
                                         <h4 class="mt-0 pl-3">สำนักงานกฤษฎีกา</h4>
                                     </div>
